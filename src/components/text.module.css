@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  position: relative;
+}
+.text {
+  color: var(--dl-color-gray-white);
+  margin-left: var(--dl-space-space-halfunit);
+}
