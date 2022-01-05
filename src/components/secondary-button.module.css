@@ -13,10 +13,11 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
   text-transform: uppercase;
-  background-color: var(--dl-color-secondary-300);
+  background-color: #233046;
 }
 .sbutton:hover {
   box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+  background-color: #767c8a;
 }
 .sbutton:active {
   background-color: var(--dl-color-secondary-100);
