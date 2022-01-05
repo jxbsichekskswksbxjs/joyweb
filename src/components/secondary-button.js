@@ -10,6 +10,9 @@ const SecondaryButton = (props) => {
     <div className={` ${styles['container']} ${styles[props.rootClassName]} `}>
       <button
         className={` ${styles['sbutton']} ${projectStyles['textXS']} ${projectStyles['button']} `}
+        onclick={() => {
+          console.log("Baka")
+        }}
       >
         {props.button}
       </button>
