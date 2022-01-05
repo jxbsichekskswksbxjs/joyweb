@@ -16,7 +16,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: flex-start;
-  background-image: url("/playground_assets/photo-1-1500h.jpg");
+  background-image: url("https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?cs=srgb&dl=pexels-belle-co-402028.jpg&fm=jpg");
 }
 .FixedHeader {
   width: 100%;
