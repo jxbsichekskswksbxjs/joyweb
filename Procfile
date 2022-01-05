@@ -1,1 +1,1 @@
-worker: php /public/index.php
+worker: php public/index.php
