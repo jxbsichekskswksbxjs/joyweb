@@ -6,13 +6,14 @@ import projectStyles from '../style.module.css'
 import styles from './secondary-button.module.css'
 
 const SecondaryButton = (props) => {
+  function clickHandler() {
+    console.log("Button Clicked")
+  }
   return (
     <div className={` ${styles['container']} ${styles[props.rootClassName]} `}>
       <button
         className={` ${styles['sbutton']} ${projectStyles['textXS']} ${projectStyles['button']} `}
-        onclick={() => {
-          console.log("Baka")
-        }}
+        onclick={clickHandler}
       >
         {props.button}
       </button>
